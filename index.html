@@ -5,6 +5,7 @@
         <meta charset="pt-BR">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/js/script.js">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/css/uikit.min.css"/>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit.min.js" 
                 integrity="sha512-OZ9Sq7ecGckkqgxa8t/415BRNoz2GIInOsu8Qjj99r9IlBCq2XJlm9T9z//D4W1lrl+xCdXzq0EYfMo8DZJ+KA==" crossorigin="anonymous" defer></script>
@@ -119,15 +120,71 @@
                 </div>
             </section>
             <section>
-                <div class="uk-container-large uk-width-1-1">
-                    <div class=" uk-background-cover uk-height-small" style="background-image: url(https://images.unsplash.com/photo-1529485726363-95c8d62f656f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80)">
-                        <div class="uk-card uk-align-right uk-padding uk-padding-remove-bottom uk-padding-remove-top">
-                            <span class="uk-text-small" style="color: var(--contrast-color)">CODING-IDEOLOGY</span>
-                            <h2 class="uk-card-title" style="font-size: 2rem"> Minhas Competencias</h2>
+                <div uk-paralax="x: -200" class="uk-margin-large-top uk-container-large uk-width-1-1 uk-background-cover uk-background-bottom-right" style="background-image: url(./assets/img/bg3.jpg
+                ); background-attachment: fixed; ">
+                <div  class="uk-container-large uk-width-1-1" >
+                    <div class=" uk-background-cover uk-background-center-right" style="background-image: url(./assets/img/small.png; height: 200px">
+                        <div class="uk-card uk-align-right uk-padding uk-margin-remove-bottom uk-padding-remove-bottom uk-text-right">
+                            <span class="uk-text-italic" style="color: var(--color);">Skills</span>
+                            <h2 class="uk-text-bolder">Minhas Competências</h2>
                         </div>
+                    </div>
+                    <div class="uk-container uk-container-large uk-width-1-3 uk-height-xlarge uk-background-secondary uk-margin-remove uk-padding-small-top" style="margin-top: -110px!important; height: 600px;" >
+                         <div class="uk-list uk-padding-large uk-flex uk-flex-column" style="gap: 40px;">
+                            <li class="uk-flex uk-flex-middle uk-flex-wrap uk-text-large" style="gap:0px 5px; color: var(--color); width: 300px;" class="uk-text-small"><span class="num-list uk-text-large uk-text-bold">1 -</span> Front-end <span class="uk-text-small uk-text-lead uk-margin-medium-left">Linguagens como HTML e CSS</span>
+                            </li>
+                            <li class="uk-flex uk-flex-middle uk-flex-wrap uk-text-large" style="gap:0px 5px; color:var(--color); width: 300px;" class="uk-text-small"><span class="num-list uk-text-large uk-text-bold">2 -</span> Java <span class="uk-text-small uk-text-lead uk-margin-medium-left">Utilização de boas práticas e entendimento da </span>
+                            </li>
+                            <li class="uk-flex uk-flex-middle uk-flex-wrap uk-text-large" style="gap:0px 5px; color:var(--color); width: 300px;" class="uk-text-small"><span class="num-list uk-text-large uk-text-bold">3 -</span> JavaScript <span class="uk-text-small uk-text-lead uk-margin-medium-left">Linguagens como HTML e CSS</span>
+                            </li>
+                            <li class="uk-flex uk-flex-middle uk-flex-wrap uk-text-large" style="gap:0px 5px; color: var(--color); width: 300px;" class="uk-text-small"><span class="num-list uk-text-large uk-text-bold">4 -</span> Python <span class="uk-text-small uk-text-lead uk-margin-medium-left">Linguagens como HTML e CSS</span>
+                            </li>
+                         </div>
                     </div>
                 </div>
             </section>
+            <section>
+            <h1 class="uk-text-secondary uk-text-bold uk-padding-large">PROJETOS</h1>
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
+
+                <ul class="uk-slider-items uk-grid">
+                    <li class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="./assets/img/Doutor Estranho.png" width="2000" height="2200" alt="">
+                            <div class="uk-position-center uk-panel"></div>
+                        </div>
+                    </li>
+                    <li class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="./assets/img/CEM.png" width="2000" height="2200" alt="">
+                            <div class="uk-position-center uk-panel"></div>
+                        </div>
+                    </li>
+                    <li class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="./assets/img/painel-de-controle.png" width="2000" height="2200" alt="">
+                            <div class="uk-position-center uk-panel"></div>
+                        </div>
+                    </li>
+                    <li class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="./assets/img/coca.png" width="2000" height="2200" alt="">
+                            <div class="uk-position-center uk-panel"></div>
+                        </div>
+                    </li>
+                    <li class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="assets/img/personagem.png" width="2000" height="2200" alt="">
+                            <div class="uk-position-center uk-panel"></div>
+                        </div>
+                    </li>
+                </ul>
+            
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+            
+            </div>
+        </section>
         </main>
     </body>
 </html>

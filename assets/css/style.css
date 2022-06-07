@@ -3,6 +3,15 @@
     src: url(../fonts/STRRETCH\ SANS.ttf);
 }
 
+@font-face {
+    font-family: "SF Pro";
+    src: url(../fonts/SFPro/SF-Pro.ttf);
+}
+@font-face {
+    font-family: "SF Pro bold";
+    src: url(../fonts/SFPro/SF-Pro-Display-Bold.otf);
+}
+
 :root{
     --color: #108a0c;
 }
