@@ -1,0 +1,73 @@
+@font-face{
+    font-family: "Stretch Sans";
+    src: url(../fonts/STRRETCH\ SANS.ttf);
+}
+
+:root{
+    --color: #108a0c;
+}
+
+:root{
+    --color-1: #222222;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color:var(--color-1);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--color);
+    border-radius: 50px;
+}
+
+nav{
+    width: 100vw;
+    z-index: 2;
+}
+
+main{
+    min-height: 100vh;
+}
+
+ul{
+    color: white;
+}
+
+.slide{
+    height: 75vh;
+    overflow: hidden;
+}
+
+.card-name{
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    height: 300px;
+    z-index: 1;
+}
+
+.uk-card h1{
+    font-family: "Stretch Sans";
+    font-size: 4rem;
+    color: var(--color);
+}
+
+.uk-card .sub-title{
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+.uk-card .sub-title:after{
+    content: "";
+    position: relative;
+    display: flex;
+    height: 2px;
+    background-color: var(--color);
+}
+
+.uk-divider-small{
+    background-color: var(--color);
+}
+
