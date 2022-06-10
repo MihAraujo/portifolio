@@ -12,6 +12,10 @@
     src: url(../fonts/SFPro/SF-Pro-Display-Bold.otf);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --color: #108a0c;
 }
